@@ -13,7 +13,7 @@ from model.unimol import SimpleUniMolModel
 from loader.dataloader import DatesetMolBind
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
 warnings.filterwarnings('ignore', category=UserWarning, message='TypedStorage is deprecated')
-torch.set_float32_matmul_precision('medium')
+# torch.set_float32_matmul_precision('medium')
 
 def init(data_loader,MolBind):
     data_loader.train_dataset.tokenizer = MolBind.model.tokenizer
