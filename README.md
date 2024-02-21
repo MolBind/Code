@@ -2,7 +2,7 @@
 
 ## Requirements
 
-See `environment.yml`. Run the following command to create a new anaconda environment `MolBind`: 
+Run the following command to create a new anaconda environment `MolBind`: 
 
 ```bash
 conda env create -f environment.yml
