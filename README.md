@@ -27,7 +27,7 @@ Download pretrained encoders  from  [google drive link](https://drive.google.com
 ## Pretrain
 
 ```bash
-python pretrain.py  --devices '0,1,2,3' --batch_size 32 --max_epochs 100 
+python pretrain.py  --devices '0,1,2,3' --batch_size 16 --max_epochs 100 
 ```
 
 
