@@ -1,4 +1,4 @@
-name: molca
+name: MolBind
 channels:
   - pytorch
   - pyg
