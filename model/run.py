@@ -208,8 +208,8 @@ class MolbindTrainer(pl.LightningModule):
         parser.add_argument('--drop_ratio', type=float, default=0.0)
         parser.add_argument('--tune_gnn', action='store_true', default=False)
 
-        parser.add_argument('--filename', type=str, default="stage1_test")
-        parser.add_argument('--store_path', type=str, default="./all_checkpoints")
+        parser.add_argument('--filename', type=str, default="results")
+        parser.add_argument('--store_path', type=str, default="./checkpoints")
         parser.add_argument('--seed', type=int, default=42, help='random seed')
         parser.add_argument('--gtm', action='store_true', help='use graph-text matching or not', default=False)
         parser.add_argument('--lm', action='store_true', help='use language modeling or not', default=False)
