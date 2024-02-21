@@ -74,7 +74,7 @@ if __name__ == '__main__':
     parser.set_defaults(accelerator='gpu',
                         devices='0,1,2,3',
                         precision='bf16',
-                        max_epochs=120,
+                        max_epochs=100,
                         accumulate_grad_batches=4,
                         val_check_interval=0.1)
 
